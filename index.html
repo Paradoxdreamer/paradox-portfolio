@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allen Esan — Paradox Dreamer | AI & Software Developer</title>
+  <meta name="description" content="Allen Esan (Paradox Dreamer) — AI Engineer, Full-Stack Developer & Creative Technologist building intelligent systems, agents, and ambitious digital products." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            paradox: {
+              black: '#0a0a0a',
+              dark: '#111111',
+              card: '#161616',
+              border: '#222222',
+              muted: '#888888',
+              light: '#e5e5e5',
+              white: '#fafafa',
+              accent: '#ffffff'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            mono: ['JetBrains Mono', 'ui-monospace', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    body { background: #0a0a0a; color: #fafafa; }
+    .nav-blur { backdrop-filter: blur(16px); background: rgba(10,10,10,0.75); }
+    .project-card:hover { transform: translateY(-4px); border-color: #444; }
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s, transform 0.7s; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="antialiased">
+  <header class="fixed top-0 left-0 right-0 z-50 nav-blur border-b border-paradox-border/60">
+    <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-2.5"><span class="w-7 h-7 rounded-md border border-paradox-border flex items-center justify-center text-xs font-semibold">P</span><span class="text-sm font-medium hidden sm:inline">Paradox</span></a>
+      <div class="hidden md:flex items-center gap-8 text-sm text-paradox-muted">
+        <a href="#work" class="hover:text-paradox-white">Work</a>
+        <a href="#about" class="hover:text-paradox-white">About</a>
+        <a href="#skills" class="hover:text-paradox-white">Skills</a>
+        <a href="#contact" class="hover:text-paradox-white">Contact</a>
+      </div>
+      <a href="https://github.com/Paradoxdreamer" target="_blank" class="text-sm text-paradox-muted hover:text-paradox-white">GitHub</a>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="min-h-screen flex items-center pt-16">
+      <div class="max-w-6xl mx-auto px-6 py-24 w-full">
+        <p class="text-xs tracking-widest uppercase text-paradox-muted mb-6">Allen Esan · Paradox Dreamer</p>
+        <h1 class="text-4xl md:text-6xl font-semibold tracking-tight leading-tight mb-6">AI Engineer · Software Developer · Creative Technologist</h1>
+        <p class="text-lg text-paradox-muted max-w-2xl mb-10">Building intelligent systems, ambitious digital products, and experiences at the intersection of AI, software, and creativity.</p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#work" class="px-6 py-3 bg-white text-black text-sm font-medium rounded-full">View Work</a>
+          <a href="#contact" class="px-6 py-3 border border-paradox-border text-sm rounded-full">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="py-24 border-t border-paradox-border/50">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold mb-12">Projects</h2>
+        <div class="space-y-6">
+          <article class="p-8 rounded-2xl border border-paradox-border bg-paradox-card">
+            <h3 class="text-xl font-semibold mb-2">ParadoxGPT</h3>
+            <p class="text-paradox-muted text-sm mb-4">Personality-driven WhatsApp AI bot with web pairing, hot-reload, modular commands, Docker.</p>
+            <a href="https://github.com/Paradoxdreamer/paradoxgpt" class="text-sm underline">View Repo</a>
+          </article>
+          <article class="p-8 rounded-2xl border border-paradox-border bg-paradox-card">
+            <h3 class="text-xl font-semibold mb-2">Paradox Agentic AI</h3>
+            <p class="text-paradox-muted text-sm mb-4">Multi-model agentic console. FastAPI · Docker · Fly.io</p>
+            <a href="https://github.com/Paradoxdreamer/Paradox-Agentic-ai" class="text-sm underline">View Repo</a>
+          </article>
+          <article class="p-8 rounded-2xl border border-paradox-border bg-paradox-card">
+            <h3 class="text-xl font-semibold mb-2">Paradox Recon</h3>
+            <p class="text-paradox-muted text-sm mb-4">Network · web · system · security diagnostic pipeline for Termux / Linux.</p>
+            <a href="https://github.com/Paradoxdreamer/Paradox-Recon" class="text-sm underline">View Repo</a>
+          </article>
+          <article class="p-8 rounded-2xl border border-paradox-border bg-paradox-card">
+            <h3 class="text-xl font-semibold mb-2">Paradox CLI</h3>
+            <p class="text-paradox-muted text-sm mb-4">One CLI for auth, queue, flags, storage, deploy, gateway.</p>
+            <a href="https://github.com/Paradoxdreamer/paradox-cli" class="text-sm underline">View Repo</a>
+          </article>
+          <article class="p-8 rounded-2xl border border-paradox-border bg-paradox-card">
+            <h3 class="text-xl font-semibold mb-2">Video Upscaler</h3>
+            <p class="text-paradox-muted text-sm mb-4">Cross-platform video quality tool — Ultra 4K, high FPS, AI enhancement.</p>
+            <a href="https://github.com/Paradoxdreamer/Video-Upscaler" class="text-sm underline">View Repo</a>
+          </article>
+          <article class="p-8 rounded-2xl border border-paradox-border bg-paradox-card">
+            <h3 class="text-xl font-semibold mb-2">Summit Ridge Roofing</h3>
+            <p class="text-paradox-muted text-sm mb-4">Professional Whop website for a US roofing business.</p>
+            <a href="https://github.com/Paradoxdreamer/summit-ridge-roofing-whop" class="text-sm underline">View Repo</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="py-24 border-t border-paradox-border/50">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold mb-6">About</h2>
+        <p class="text-paradox-muted max-w-2xl leading-relaxed">I'm Allen Esan — software and AI-focused developer building ambitious digital products across AI agents, web applications, automation, and creative technology. Shipping under the Paradox name from Nigeria. OAU · Computer Science.</p>
+      </div>
+    </section>
+    <section id="skills" class="py-24 border-t border-paradox-border/50">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold mb-8">Skills</h2>
+        <p class="text-paradox-muted text-sm">JavaScript · Node.js · Python · FastAPI · Go · TypeScript · Flutter · AI Agents · Docker · Fly.io · Baileys · Three.js · CLI tooling</p>
+      </div>
+    </section>
+    <section id="contact" class="py-24 border-t border-paradox-border/50">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-semibold mb-4">Let's build something.</h2>
+        <p class="text-paradox-muted mb-8">Open to collaborations and client work.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="https://github.com/Paradoxdreamer" class="px-6 py-3 bg-white text-black text-sm font-medium rounded-full">GitHub</a>
+          <a href="mailto:esanallen61@gmail.com" class="px-6 py-3 border border-paradox-border text-sm rounded-full">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="border-t border-paradox-border/50 py-10 text-center text-sm text-paradox-muted">
+    <p>© 2026 Allen Esan · Paradox Tech</p>
+    <p class="mt-2 text-xs">From the deepest depth of darkness comes digital innovations.</p>
+  </footer>
+  <script>
+    document.querySelectorAll('.reveal').forEach(el => {
+      new IntersectionObserver(e => e.forEach(x => x.isIntersecting && x.target.classList.add('visible')), {threshold:0.12}).observe(el);
+    });
+  </script>
+</body>
+</html>
